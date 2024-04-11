@@ -5,12 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script>
+        function clicked(id){
+            const audio=document.getElementById("audio");
+            audio.play();
+        const elements = document.getElementById(id);
+            elements.style.backgroundColor = "rgb(102,0,204)";
+            // elements.style.scale = '1.5';
+        
+}
+
+    </script>
 </head>
 <body>
-    <div>
-        NEW NIGGA?
-        <br>
-        REGISTER NOW
-    </div>
+    <div class="outer">
+        <div class="first1" id="1" onClick="clicked('1')" >
+            <!-- NEW NIGGA?
+                <br>
+                REGISTER NOW -->
+            </div>
+            <div class="first1" id="2" onclick="clicked('2')">
+
+            </div>
+            <div class="first1" id="3" onclick="clicked('3')">
+
+            </div>
+            <div class="first1" id="4" onclick="clicked('4')">
+
+            </div>
+        </div>
+        <audio id="audio" src="mixkit-cool-interface-click-tone-2568.wav"></audio>
+    
 </body>
 </html>
